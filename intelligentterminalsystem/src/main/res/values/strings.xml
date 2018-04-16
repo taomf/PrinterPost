@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">小e商户</string>
+    <string name="crash_tip">程序崩溃了</string>
+
+    <string name="str_cannotcreatebar">Can Not Create Barcode</string>
+
+</resources>

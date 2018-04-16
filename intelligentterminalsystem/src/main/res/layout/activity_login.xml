@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/activity_login_logo"
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="@drawable/activity_login_edit"
+        >
+        <EditText
+            android:id="@+id/at_login_et_account"
+            android:layout_marginLeft="15dp"
+            android:background="@null"
+            android:hint="请输入帐号"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/horizontal_line"
+            />
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/at_login_et_password"
+            android:layout_marginLeft="15dp"
+            android:background="@null"
+            android:hint="请输入密码"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/at_login_rl_login"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_range_ac_login"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="45dp">
+        <TextView
+            android:id="@+id/at_login_tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textColor="@color/c_b1b1b1"
+            />
+
+    </RelativeLayout>
+
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="初始化"
+        android:id="@+id/bt_initpage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="订单详情"
+        android:id="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认拒收"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="版本升级"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="闪购退款"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打印小票"
+        android:id="@+id/button6"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="订单查询"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal" />-->
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 开发地址 -->
+	<!--<string name="url">http://192.168.62.52:8130/terminalGatewayWebPRC/interfaceservlet?returntype=2</string>-->
+    <!-- 测试地址 -->
+	<string name="url">http://192.168.62.40:8083/terminalGatewayWebPRC/interfaceservlet?returntype=2</string>
+    </resources>

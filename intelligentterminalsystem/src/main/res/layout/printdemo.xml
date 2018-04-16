@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="400dp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewState"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:text="STATE" />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:inputType="textMultiLine" />
+
+                <ImageView
+                    android:id="@+id/iv_test"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnOpenPic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打开图片" />
+
+        <Button
+            android:id="@+id/btnWordToPic"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="文字转图片" />
+
+        <Button
+            android:id="@+id/btnQrCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="生成二维码" />
+
+        <Button
+            android:id="@+id/btnBarCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="生成条码" />
+
+        <Button
+            android:id="@+id/btnPrintPic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印图片" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/checkBoxTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:checked="false"
+            android:text="定时打印" />
+
+        <Button
+            android:id="@+id/btnPrint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="打印" />
+
+        <Button
+            android:id="@+id/btnUnicode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打印Unicode" />
+        <Button
+            android:id="@+id/btn_print_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打印demo" />
+        
+        <Button
+            android:id="@+id/btn_zhibiao_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="demo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="157dp"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
